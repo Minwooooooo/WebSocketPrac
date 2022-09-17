@@ -1,0 +1,25 @@
+### ws://localhost:8080/test/chat
+POST http://localhost:8080/chat
+Content-Type: application/json
+
+{
+  "roomName" : "테스트1"
+}
+
+### ws://54.180.134.85/test/chat
+POST http://54.180.134.85:8080/chat
+Content-Type: application/json
+
+{
+  "roomName" : "테스트1"
+}
+
+
+
+{
+"msgType":"ENTER",
+"roomId":"ec76c463-21a8-4f4f-a418-340914090445",
+"member":"admin",
+"msg":""
+}
+
