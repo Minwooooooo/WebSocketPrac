@@ -1,9 +1,9 @@
 package com.test.WebSocketPrac.WebSocket;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.test.WebSocketPrac.ChatRoomDto;
-import com.test.WebSocketPrac.ChatService;
-import com.test.WebSocketPrac.MsgDto;
+import com.test.WebSocketPrac.nonStomp.ChatRoomDto;
+import com.test.WebSocketPrac.nonStomp.ChatService;
+import com.test.WebSocketPrac.nonStomp.MsgDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.test.WebSocketPrac;
+package com.test.WebSocketPrac.nonStomp;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
-public class ChatController {
+public class nonStompChatController {
     private final ChatService chatService;
 
     @PostMapping(value = "/chat")

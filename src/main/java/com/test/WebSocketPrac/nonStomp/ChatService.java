@@ -1,4 +1,4 @@
-package com.test.WebSocketPrac;
+package com.test.WebSocketPrac.nonStomp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
